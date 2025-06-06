@@ -1,74 +1,136 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>مرکز ترک اعتیاد تولد نو تندرستی</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>تولد نو تندرستی</h1>
-      <nav>
-        <ul>
-          <li><a href="#" class="active">خانه</a></li>
-          <li><a href="#">درباره ما</a></li>
-          <li><a href="#">تماس با ما</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+/* پایه */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: Tahoma, sans-serif;
+}
 
-  <section class="hero">
-    <div class="container">
-      <h2>مرکز تخصصی ترک اعتیاد</h2>
-      <p>با بیش از ۱۵ سال تجربه در درمان وابستگی به مواد مخدر و الکل، همراه تیمی حرفه‌ای</p>
-    </div>
-  </section>
+body {
+  background: linear-gradient(to right, #e0f2f1, #f1f8e9);
+  color: #333;
+  line-height: 1.8;
+}
 
-  <section class="section about">
-    <div class="container">
-      <h2>درباره مرکز</h2>
-      <p>مرکز ما با بهره‌گیری از روانشناسان و پزشکان مجرب، بستری امن و آرام برای بازگشت به زندگی سالم فراهم کرده است.</p>
-    </div>
-  </section>
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
 
-  <section class="section services">
-    <div class="container">
-      <h2>خدمات ما</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>برنامه‌ریزی اختصاصی</h3>
-          <p>برای هر بیمار به‌صورت انفرادی برنامه درمانی طراحی می‌شود.</p>
-        </div>
-        <div class="card">
-          <h3>مراقبت ۲۴ ساعته</h3>
-          <p>پشتیبانی روانی، پزشکی و حمایتی شبانه‌روزی در طول درمان.</p>
-        </div>
-        <div class="card">
-          <h3>محیط آرام</h3>
-          <p>مرکز در محیطی آرام، دور از تنش و استرس قرار دارد.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+/* هدر */
+header {
+  background-color: #004d40;
+  color: white;
+  padding: 1rem 0;
+}
 
-  <section class="section effects">
-    <div class="container">
-      <h2>عوارض مواد مخدر</h2>
-      <ul>
-        <li><strong>تریاک:</strong> وابستگی شدید، یبوست، تنبلی سیستم تنفسی</li>
-        <li><strong>شیشه:</strong> توهم، بی‌خوابی، اضطراب و پرخاشگری</li>
-        <li><strong>هروئین:</strong> خطر مرگ، افت شدید قوای جسمانی</li>
-        <li><strong>الکل:</strong> تخریب کبد، فراموشی، وابستگی روانی</li>
-        <li><strong>کوکائین:</strong> آسیب قلبی، توهم، اختلالات عصبی</li>
-      </ul>
-    </div>
-  </section>
+header h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
 
-  <footer>
-    <p>© ۲۰۲۵ مرکز ترک اعتیاد تولد نو تندرستی</p>
-  </footer>
-</body>
-</html>
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* بخش قهرمان */
+.hero {
+  background: url('https://images.unsplash.com/photo-1612832021454-25e5f5c8d722?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* بخش‌ها */
+.section {
+  padding: 3rem 0;
+  background: white;
+  margin: 1rem 0;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  color: #00695c;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section p,
+.section ul {
+  font-size: 1.1rem;
+}
+
+/* کارت‌ها */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #e0f7fa;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.card h3 {
+  color: #00796b;
+  margin-bottom: 0.5rem;
+}
+
+/* لیست عوارض */
+.effects ul {
+  list-style: disc;
+  padding-right: 1.5rem;
+}
+
+/* فوتر */
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/* موبایل */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+}

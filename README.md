@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مرکز ترک اعتیاد تولد نو تندرستی</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>تولد نو تندرستی</h1>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">خانه</a></li>
+          <li><a href="#">درباره ما</a></li>
+          <li><a href="#">تماس با ما</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>مرکز تخصصی ترک اعتیاد</h2>
+      <p>با بیش از ۱۵ سال تجربه در درمان وابستگی به مواد مخدر و الکل، همراه تیمی حرفه‌ای</p>
+    </div>
+  </section>
+
+  <section class="section about">
+    <div class="container">
+      <h2>درباره مرکز</h2>
+      <p>مرکز ما با بهره‌گیری از روانشناسان و پزشکان مجرب، بستری امن و آرام برای بازگشت به زندگی سالم فراهم کرده است.</p>
+    </div>
+  </section>
+
+  <section class="section services">
+    <div class="container">
+      <h2>خدمات ما</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>برنامه‌ریزی اختصاصی</h3>
+          <p>برای هر بیمار به‌صورت انفرادی برنامه درمانی طراحی می‌شود.</p>
+        </div>
+        <div class="card">
+          <h3>مراقبت ۲۴ ساعته</h3>
+          <p>پشتیبانی روانی، پزشکی و حمایتی شبانه‌روزی در طول درمان.</p>
+        </div>
+        <div class="card">
+          <h3>محیط آرام</h3>
+          <p>مرکز در محیطی آرام، دور از تنش و استرس قرار دارد.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section effects">
+    <div class="container">
+      <h2>عوارض مواد مخدر</h2>
+      <ul>
+        <li><strong>تریاک:</strong> وابستگی شدید، یبوست، تنبلی سیستم تنفسی</li>
+        <li><strong>شیشه:</strong> توهم، بی‌خوابی، اضطراب و پرخاشگری</li>
+        <li><strong>هروئین:</strong> خطر مرگ، افت شدید قوای جسمانی</li>
+        <li><strong>الکل:</strong> تخریب کبد، فراموشی، وابستگی روانی</li>
+        <li><strong>کوکائین:</strong> آسیب قلبی، توهم، اختلالات عصبی</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>© ۲۰۲۵ مرکز ترک اعتیاد تولد نو تندرستی</p>
+  </footer>
+</body>
+</html>
